@@ -35,11 +35,10 @@ function handleSubmit(e){
       correctIndex: formData.correctIndex,
     }),
   })
-  .then(r => r.json())
-  .then(q => setQuestions([...questions, q]))
-  setPage("list")
+  // .then(r => r.json())
+  // .then(q => setQuestions([...questions, q]))
+  // setPage("list")
 }
-
 
   return (
     <section>
